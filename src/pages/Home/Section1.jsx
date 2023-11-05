@@ -256,7 +256,7 @@ function Section1() {
                             </svg>
                         </div>
                     </div>
-                    <span data-testid="accolades-subtitle" className="">
+                    <span data-testid="accolades-subtitle" >
                         Google Play
                         <span className="md:whitespace-nowrap">
                             Store <sup>2</sup>

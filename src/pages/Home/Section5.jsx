@@ -98,7 +98,7 @@ function Section5() {
                         <br/>Other investing apps might focus on what’s trending, but our Stock Investing Account lets you skip the endless hours of research, to help you make smarter investing decisions, faster. Browse 45+ pre-built collections and invest in companies you love without the advisory or management fees.
                     </p>
                 </div>
-                <div className=" flex-row md:items-center flex-col  flex md:justify-center items-start xl:items-center space-y-4">
+                <div className=" flex-row md:items-center flex-col flex md:justify-center items-start xl:items-center space-y-4">
                     <Link className="z-10  button_button__SRc2Y relative items-center justify-center rounded-md transition-all font-medium 2xl:px-6 2xl:py-3.5 px-5 py-3 copy-body button_primaryButton__ipohF bg-blurple text-white overflow-hidden inline-flex whitespace-nowrap w-[234px] bg-lavender2" to="/">Get started</Link>
                     <Link className="z-10 relative font-medium underline text-white" to="/">Learn more about Stock Investing</Link>
                 </div>

@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { FaBars,FaTimes } from "react-icons/fa";
-
 import Logo from '../../assets/logo/companyLogo.svg';
 import Hamburger from '../../assets/logo/hamburger.contenthash.8361a668629c64dbc61ef8ad2c464b80fabee143.svg';
 import Burger from '../../assets/logo/hamburger.contenthash.8361a668629c64dbc61ef8ad2c464b80fabee143.svg';
@@ -14,10 +12,6 @@ function Header() {
     const toggleMobileMenu = () => {
         setMobileMenuOpen((prevMobileMenuOpen) => !prevMobileMenuOpen);
     };
-
-    // useEffect(() => {
-    //     console.log("Mobile menu state:", isMobileMenuOpen);
-    // }, [isMobileMenuOpen]);
 
   return (
     <>
@@ -63,7 +57,6 @@ function Header() {
                     </div>
                 </div>
             </div>
-
             <div className="relative z-10 hidden px-0 md:block md:px-12 lg:hidden lg:px-16">
                 <div className="absolute left-0 right-0 flex items-center justify-between px-6 py-6 md:static md:px-0">
                     <Link  className="z-10 relative font-medium underline text-eggplant" to="/">
@@ -80,7 +73,7 @@ function Header() {
                         <img className="text-3xl font-bold text-white md:text-eggplant" width="200" height="26" data-testid="logo-dynamic-wordmark" alt="Wealthfront Logo" loading="eager" src={Hamburger1}/>
                     </Link>
                     <button type="button" data-testid="logged-out-mobile-header-hamburger" onClick={toggleMobileMenu}>
-                        <img className='fill: bg-[#230b59]' width="30" height="23" alt="Open navigation menu" loading="eager" src={Burger}/>
+                        <img  width="30" height="23" alt="Open navigation menu" loading="eager" src={Burger}/>
                     </button>
                 </div>
             </div> 
@@ -96,7 +89,7 @@ function Header() {
                       <Link className='block px-3 py-2 rounded-md text-base align-middle text-center' to="/Get Started">Get Started</Link>
                       </div>
                   </div>
-                    )}  
+                    )};
         </div>
     </div>
     </>

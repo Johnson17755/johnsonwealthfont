@@ -132,7 +132,7 @@ function Section2() {
             </Link>
         </div>
     </>
-  )
+  );
 };
 
 export default Section2;
